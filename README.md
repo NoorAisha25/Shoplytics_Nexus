@@ -23,7 +23,7 @@ Shoplytics Nexus applies regression modeling to e-commerce transaction data to u
 
 | File                          | Description                                      |
 |------------------------------|--------------------------------------------------|
-| Shoplytics_Regression.ipynb| Jupyter Notebook with preprocessing & ML model   |
+| `Shoplytics_Regression.ipynb`| Jupyter Notebook with preprocessing & ML model   |
 | `Shoplytics_Nexus_Data.csv`  | Cleaned e-commerce dataset                       |
 | `linear_sales_model.joblib`  | Serialized regression model                      |
 | `requirements.txt`           | Package dependencies                             |
