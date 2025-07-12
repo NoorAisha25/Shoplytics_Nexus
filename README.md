@@ -1,44 +1,43 @@
-# 🛍️ Shoplytics Nexus Dashboard
+# Shoplytics Nexus – Machine Learning Project
 
-An interactive AI dashboard that analyzes customer shopping behavior and predicts sales amounts using machine learning and Streamlit. Built using Python, scikit-learn, and Plotly.
+This project uses machine learning to analyze customer shopping behavior and predict sales amounts. It focuses on building a clean, efficient ML pipeline using Python and scikit-learn.
 
-## 🔍 Project Overview
+##  Project Overview
 
-Shoplytics Nexus combines regression modeling with intuitive data visualization to reveal insights from e-commerce transaction data. The dashboard allows users to:
+Shoplytics Nexus applies regression modeling to e-commerce transaction data to uncover insights and predict purchase amounts. The workflow includes:
 
-- Predict sales amounts based on customer and product features
-- Filter data by gender and view targeted analytics
-- Visualize residuals vs predicted values
-- Explore top feature importances using dynamic bar charts
-- View distribution of purchase amounts
+- Cleaning and preprocessing customer data
+- Training a regression model to predict sales
+- Evaluating model performance using MSE and R²
+- Saving the trained model for future use
 
-## 🧠 Technologies Used
+##  Technologies Used
 
-- Python 3.13
-- scikit-learn
-- pandas, numpy
-- Streamlit
-- Plotly
-- joblib (model serialization)
+- Python 3.13  
+- pandas, numpy  
+- scikit-learn  
+- joblib (model serialization)  
+- Jupyter Notebook
 
-## 📊 Files Included
+## Files Included
 
-| File                        | Description                                  |
-|----------------------------|----------------------------------------------|
-| `app.py`                   | Streamlit dashboard app                      |
-| `Shoplytics_Regression.ipynb` | Jupyter Notebook with preprocessing & ML model |
-| `Shoplytics_Nexus_Data.csv` | Cleaned e-commerce dataset                  |
-| `linear_sales_model.joblib` | Serialized regression model                 |
-| `requirements.txt`         | Package dependencies                        |
+| File                          | Description                                      |
+|------------------------------|--------------------------------------------------|
+| `Shoplytics_Regression.ipynb`| Jupyter Notebook with preprocessing & ML model   |
+| `Shoplytics_Nexus_Data.csv`  | Cleaned e-commerce dataset                       |
+| `linear_sales_model.joblib`  | Serialized regression model                      |
+| `requirements.txt`           | Package dependencies                             |
 
-## 🚀 How to Run
+##  How to Run
 
 1. Clone this repo:
    ```bash
    git clone https://github.com/NoorAisha25/Shoplytics_Nexus.git
    cd Shoplytics_Nexus
+2.Install Dependencies
    pip install -r requirements.txt
-   streamlit run app.py
-   Then open http://localhost:8501 in your browser!
-   
+3.Launch Jupyter Notebook
+   jupyter notebook
+4.Open Shoplytics_Regression.ipynb to explore the full ML workflow
+
    
