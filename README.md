@@ -28,23 +28,21 @@ Shoplytics Nexus applies regression modeling to e-commerce transaction data to u
 | `linear_sales_model.joblib`  | Serialized regression model                      |
 | `requirements.txt`           | Package dependencies                             |
 
-##  How to Run
-
-1. Clone this repo:
+##  How to Run :
+ 
    ```bash
-   git clone https://github.com/NoorAisha25/Shoplytics_Nexus.git
-   cd Shoplytics_Nexus
+   1. git clone https://github.com/NoorAisha25/Shoplytics_Nexus.git
 
-   
-2.Install Dependencies
-  ```bash
-   pip install -r requirements.txt
 
-3.Launch Jupyter Notebook
-  ```bash
-   jupyter notebook
+   2. cd Shoplytics_Nexus
 
-   
-4.Open Shoplytics_Regression.ipynb to explore the full ML workflow
+
+   3. pip install -r requirements.txt
+
+
+   4. jupyter notebook
+
+
+ Open Shoplytics_Regression.ipynb to explore the full ML workflow
 
    
